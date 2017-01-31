@@ -16,6 +16,9 @@
 		EE2B5EC21E38F55C003C91F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2B5EC01E38F55C003C91F8 /* LaunchScreen.storyboard */; };
 		EE2B5ECD1E38F55D003C91F8 /* AgendaDeContatosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2B5ECC1E38F55D003C91F8 /* AgendaDeContatosTests.m */; };
 		EE2B5ED81E38F55D003C91F8 /* AgendaDeContatosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2B5ED71E38F55D003C91F8 /* AgendaDeContatosUITests.m */; };
+		EE2B5EE91E3BE28C003C91F8 /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2B5EE81E3BE28C003C91F8 /* Contato.m */; };
+		EE2B5EEC1E3F7826003C91F8 /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2B5EEB1E3F7826003C91F8 /* ListaContatosViewController.m */; };
+		EE2B5EEF1E3FFB60003C91F8 /* ContatoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2B5EEE1E3FFB60003C91F8 /* ContatoDao.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		EE2B5ED31E38F55D003C91F8 /* AgendaDeContatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaDeContatosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2B5ED71E38F55D003C91F8 /* AgendaDeContatosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendaDeContatosUITests.m; sourceTree = "<group>"; };
 		EE2B5ED91E38F55D003C91F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2B5EE51E3BDCAD003C91F8 /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		EE2B5EE81E3BE28C003C91F8 /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		EE2B5EEA1E3F7826003C91F8 /* ListaContatosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaContatosViewController.h; sourceTree = "<group>"; wrapsLines = 1; };
+		EE2B5EEB1E3F7826003C91F8 /* ListaContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaContatosViewController.m; sourceTree = "<group>"; usesTabs = 0; };
+		EE2B5EED1E3FFB60003C91F8 /* ContatoDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoDao.h; sourceTree = "<group>"; };
+		EE2B5EEE1E3FFB60003C91F8 /* ContatoDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoDao.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +116,13 @@
 				EE2B5EB31E38F55C003C91F8 /* AppDelegate.m */,
 				EE2B5EB51E38F55C003C91F8 /* ViewController.h */,
 				EE2B5EB61E38F55C003C91F8 /* ViewController.m */,
+				EE2B5EE81E3BE28C003C91F8 /* Contato.m */,
+				EE2B5EE51E3BDCAD003C91F8 /* Contato.h */,
 				EE2B5EB81E38F55C003C91F8 /* Main.storyboard */,
+				EE2B5EED1E3FFB60003C91F8 /* ContatoDao.h */,
+				EE2B5EEE1E3FFB60003C91F8 /* ContatoDao.m */,
+				EE2B5EEA1E3F7826003C91F8 /* ListaContatosViewController.h */,
+				EE2B5EEB1E3F7826003C91F8 /* ListaContatosViewController.m */,
 				EE2B5EBE1E38F55C003C91F8 /* Assets.xcassets */,
 				EE2B5EC01E38F55C003C91F8 /* LaunchScreen.storyboard */,
 				EE2B5EC31E38F55C003C91F8 /* Info.plist */,
@@ -276,6 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2B5EEF1E3FFB60003C91F8 /* ContatoDao.m in Sources */,
+				EE2B5EE91E3BE28C003C91F8 /* Contato.m in Sources */,
+				EE2B5EEC1E3F7826003C91F8 /* ListaContatosViewController.m in Sources */,
 				EE2B5EB71E38F55C003C91F8 /* ViewController.m in Sources */,
 				EE2B5EBD1E38F55C003C91F8 /* AgendaDeContatos.xcdatamodeld in Sources */,
 				EE2B5EB41E38F55C003C91F8 /* AppDelegate.m in Sources */,
